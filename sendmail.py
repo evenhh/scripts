@@ -12,7 +12,7 @@ smtp_server = ''
 # 输入收件人地址:
 to_addr = ''
 
-
+#msg可以定制更多内容
 server = smtplib.SMTP(smtp_server, 25) # SMTP协议默认端口是25
 server.login(username, password)
 server.sendmail(from_addr, [to_addr], msg.as_string())
