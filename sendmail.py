@@ -1,7 +1,11 @@
 #!/usr/bin/env python
 #-*-coding:utf-8-*-
 from email.mime.text import MIMEText
+from email import Header
 import smtplib
+msg['From']=Header("aa")
+msg['To'] = Header("bb")
+msg['Subject'] = "sub"
 msg = MIMEText('hello, send by Python...', 'plain', 'utf-8')
 # 输入Email地址和口令:
 from_addr = ''
