@@ -3,6 +3,7 @@
 from email.mime.text import MIMEText
 from email import Header
 import smtplib
+#构建邮件主体
 msg['From']=Header("aa")
 msg['To'] = Header("bb")
 msg['Subject'] = "sub"
