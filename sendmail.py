@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #-*-coding:utf-8-*-
 from email.mime.text import MIMEText
-from email import Header
+from email.header import Header
 import smtplib
 #构建邮件主体
 msg['From']=Header("aa")
